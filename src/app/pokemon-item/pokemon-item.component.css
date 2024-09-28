@@ -1,0 +1,27 @@
+.pokemon-card {
+    width: 200px;                /* Ancho de la tarjeta */
+    padding: 20px;               /* Espaciado interno */
+    margin: 10px;                /* Espaciado externo */
+    background-color: #f7f7f7;   /* Color de fondo */
+    border-radius: 10px;         /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+    text-align: center;          /* Centramos el texto */
+    font-family: 'Arial', sans-serif;  /* Fuente */
+    transition: transform 0.3s ease;   /* Transición para hover */
+  }
+
+
+
+
+  .pokemon-card:hover {
+    transform: scale(1.05);      /* Aumenta ligeramente al pasar el mouse */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Mayor sombra al hover */
+  }
+  
+  .pokemon-card p {
+    font-size: 18px;             /* Tamaño de letra */
+    font-weight: bold;           /* Negrita */
+    color: #333;                 /* Color de texto */
+    margin: 0;                   /* Sin margen extra en el párrafo */
+  }
+  
